@@ -4,7 +4,7 @@ git status -- Que se modifico, que archivos estan listos, en que lugar trabajamo
 git add . -- Archivos que queremos enviar
 git commit -m "primer commit"  -- registro historico de los archivos
 
-git remote add origin https://github.com/jmlaranjeira/""
+git remote add origin <url repositorio remoto>
 git remote -v
 git commit -am "asdad"
 git push -u origin master
@@ -16,8 +16,8 @@ git checkout -- .
 git checkout -- README.md
 
 ### configuración
-git config --global user.name "jmlaranjeira"
-git config --global user.email "jmlaranjeira@sampol.com"
+git config --global user.name <name>
+git config --global user.email <email>
 git config --global -e
 
 ### log
@@ -226,7 +226,7 @@ git push -u origin master (la -u sirve para asginar el repositorio por defecto)
 
 ### clonar repositorio
 git clone <url repositorio>
-git clone https://github.com/jmlaranjeira/udemy-heroes.git demo-10
+git clone <url git remote> demo-10
 
 ### Diferencia entre fetch y pull
 * pull, intenta descargar los cambios y automáticamente realizar un merge
@@ -242,7 +242,7 @@ git push
 2. Clone. 
 3. Colaboraciones. 
 
- git remote add upstream https://github.com/Klerith/legion-del-mal.git
+ git remote add upstream <url git remote>
 
 ### Trabajar en grupo
 git checkout -b rama-villanos
@@ -268,41 +268,3 @@ git commit -am "Agregamos a Nick fixes #4" (fixes, closes, resolve)
 ## Milestones - Son grupos de issues, caracteristicas o una fecha importante dentro de un periodo de tiempo
 Ejemplo, Milestones Beta Launch, Milestones Octubre...
 
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/jmlaranjeira/jmlaranjeira.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jmlaranjeira/jmlaranjeira.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
